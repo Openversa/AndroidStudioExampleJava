@@ -24,6 +24,7 @@ URL url = new URL("https://ovapi.openversa.com/v2/YOURCOMPANY/index.php");
                 System.out.println("\nSending 'POST' request to URL : " + url);
                 System.out.println("Post parameters : " + urlParameters);
                 System.out.println("Response Code : " + responseCode);
-                
+
+<br>  
 ![Alt text](AndroidSample.jpg?raw=true "Android Application To Call Openversa")
 
