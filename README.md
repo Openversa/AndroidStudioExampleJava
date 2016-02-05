@@ -8,7 +8,12 @@ URL url = new URL("https://ovapi.openversa.com/v2/YOURCOMPANY/index.php");
                 connection.setRequestMethod("POST");
                 connection.setRequestProperty("Content-type", "application/x-www-form-urlencoded");
 
-                String urlParameters = "command=getMessages&username=“YOUR EMAIL”&appID=“YOUR MVA_ CODE”&appSecret=“YOUR APP SECRET”&groupID=“YOUR GROUP NUMBER”&logging=0";
+                String urlParameters = 
+                "command=getMessages&
+                username=“YOUR EMAIL”&appID=“YOUR MVA_ CODE”&
+                appSecret=“YOUR APP SECRET”&
+                groupID=“YOUR GROUP NUMBER”&logging=0";
+
 
                 connection.setDoOutput(true);
                 DataOutputStream wr = new DataOutputStream(connection.getOutputStream());
