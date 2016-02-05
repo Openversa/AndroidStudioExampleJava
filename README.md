@@ -1,7 +1,7 @@
 # AndroidStudioExampleJava
 Example Android Studio Java accessing the Openversa Platform. This sameple android java application will enable you to test connections into the Openversa platform. Once you have an Openversa Account you will be able to create device credentials to place with the MainActivity.java file. Within the MainActivity.java file the code below will be altered to place in the new device credentials by your accounts. 
 
-URL url = new URL("https://ovapi.openversa.com/v2/YOUR COMPANY/index.php");
+URL url = new URL("https://ovapi.openversa.com/v2/YOURCOMPANY/index.php");
 
                 HttpsURLConnection connection = (HttpsURLConnection)url.openConnection();
 
